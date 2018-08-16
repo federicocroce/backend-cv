@@ -6,7 +6,7 @@ var serviceAccount = require('../firebaseConfig.json');
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: 'https://test-pw2-ca15d.firebaseio.com'
+  databaseURL: "https://test-74eeb.firebaseio.com"
 });
 
 var db = admin.firestore();
